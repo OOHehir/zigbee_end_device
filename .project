@@ -561,6 +561,26 @@
 			<locationURI>STUDIO_SDK_LOC/platform/bootloader/core/flash/btl_internal_flash.h</locationURI>
 		</link>
 		<link>
+			<name>simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/inc/sl_button.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/inc/sl_simple_button.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/platform/driver/button/src/sl_button.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/src/sl_button.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/platform/driver/button/src/sl_simple_button.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/driver/button/src/sl_simple_button.c</locationURI>
+		</link>
+		<link>
 			<name>simplicity_sdk_2025.6.1/platform/driver/debug/inc/sl_debug_swo.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/driver/debug/inc/sl_debug_swo.h</locationURI>
@@ -4206,6 +4226,21 @@
 			<locationURI>STUDIO_SDK_LOC/platform/radio/rail_lib/plugin/pa-conversions/efr32xg21/sl_rail_util_pa_curves.h</locationURI>
 		</link>
 		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/basic/basic-cb.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/basic/basic-cb.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/basic/basic.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/basic/basic.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/basic/basic.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/basic/basic.h</locationURI>
+		</link>
+		<link>
 			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/counters/af-counters.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/counters/af-counters.c</locationURI>
@@ -4251,6 +4286,26 @@
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/debug-print/sl_zigbee_debug_print.h</locationURI>
 		</link>
 		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator-cb.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator-cb.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator-cli.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator-cli.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h</locationURI>
+		</link>
+		<link>
 			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering/network-steering-cb.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/network-steering/network-steering-cb.c</locationURI>
@@ -4279,6 +4334,36 @@
 			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting-cb.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting-cb.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting-cli.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting-cli.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting-default-configuration.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting-default-configuration.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting-tokens.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting-tokens.h</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting.c</locationURI>
+		</link>
+		<link>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting/reporting.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/plugin/reporting/reporting.h</locationURI>
 		</link>
 		<link>
 			<name>simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/scan-dispatch/scan-dispatch.c</name>
@@ -4516,9 +4601,9 @@
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/build/gcc/cortex-m33/zigbee-debug-basic/release_singlenetwork/libzigbee-debug-basic.a</locationURI>
 		</link>
 		<link>
-			<name>simplicity_sdk_2025.6.1/protocol/zigbee/build/gcc/cortex-m33/zigbee-pro-stack/release_singlenetwork/libzigbee-pro-stack.a</name>
+			<name>simplicity_sdk_2025.6.1/protocol/zigbee/build/gcc/cortex-m33/zigbee-pro-leaf-stack/release_singlenetwork/libzigbee-pro-leaf-stack.a</name>
 			<type>1</type>
-			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/build/gcc/cortex-m33/zigbee-pro-stack/release_singlenetwork/libzigbee-pro-stack.a</locationURI>
+			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/build/gcc/cortex-m33/zigbee-pro-leaf-stack/release_singlenetwork/libzigbee-pro-leaf-stack.a</locationURI>
 		</link>
 		<link>
 			<name>simplicity_sdk_2025.6.1/protocol/zigbee/build/gcc/cortex-m33/zigbee-source-route/release_singlenetwork/libzigbee-source-route.a</name>

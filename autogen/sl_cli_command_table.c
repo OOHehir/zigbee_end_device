@@ -155,6 +155,7 @@ void sli_zigbee_debug_print_enable_core_type_command(sl_cli_command_arg_t *argum
 void sli_zigbee_debug_print_enable_app_type_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_debug_print_enable_zcl_type_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_debug_print_enable_legacy_af_debug_type_command(sl_cli_command_arg_t *arguments);
+void sl_zigbee_af_find_and_bind_initiator_start_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_steering_status_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_steering_start_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_steering_stop_command(sl_cli_command_arg_t *arguments);
@@ -162,6 +163,12 @@ void sl_zigbee_af_network_steering_set_preconfigured_key_command(sl_cli_command_
 void sl_zigbee_af_network_steering_channel_set_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_steering_channel_add_or_subtract_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_steering_channel_add_or_subtract_command(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_print(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_clear(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_remove(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_add(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_clear_last_report_time(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_reporting_cli_test_timing(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_idle_sleep_status_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_idle_sleep_stay_awake_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_idle_sleep_awake_when_not_joined_command(sl_cli_command_arg_t *arguments);
@@ -436,6 +443,12 @@ static const sl_cli_command_info_t cli_cmd_enable_type_legacy_af_debug = \
                   "Enable/disable" SL_CLI_UNIT_SEPARATOR,
                  {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
 
+static const sl_cli_command_info_t cli_cmd_find_hyphen_and_hyphen_bind_initiator = \
+  SL_CLI_COMMAND(sl_zigbee_af_find_and_bind_initiator_start_command,
+                 "Makes this node start the initiator part of the finding and binding process.",
+                  "The endpoint on which to begin the Finding and Binding initiator process" SL_CLI_UNIT_SEPARATOR,
+                 {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
+
 static const sl_cli_command_info_t cli_cmd_network_hyphen_steering_status = \
   SL_CLI_COMMAND(sl_zigbee_af_network_steering_status_command,
                  "Displays the current status of the network steering process.",
@@ -477,6 +490,42 @@ static const sl_cli_command_info_t cli_cmd_shell_mask_1_subtract = \
                  "Subtracts a channel from either the primary or secondary channel mask of the network-steering component.",
                   "The channel mask to subtract the channel from" SL_CLI_UNIT_SEPARATOR "The channel to subtract the mask from" SL_CLI_UNIT_SEPARATOR,
                  {SL_CLI_ARG_UINT8, SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_print = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_print,
+                 "Prints the report table.",
+                  "",
+                 {SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_clear = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_clear,
+                 "Clears all entries from the report table.",
+                  "",
+                 {SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_remove = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_remove,
+                 "Removes an entry from the report table.",
+                  "The index of the report to be removed" SL_CLI_UNIT_SEPARATOR,
+                 {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_add = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_add,
+                 "Adds a new entry to the report table.",
+                  "The local endpoint from which the attribute is reported" SL_CLI_UNIT_SEPARATOR "The cluster where the attribute is located" SL_CLI_UNIT_SEPARATOR "The ID of the attribute being reported" SL_CLI_UNIT_SEPARATOR "0 for client-side attributes or 1 for server-side attributes" SL_CLI_UNIT_SEPARATOR "The minimum reporting interval, measured in seconds." SL_CLI_UNIT_SEPARATOR "The maximum reporting interval, measured in seconds." SL_CLI_UNIT_SEPARATOR "The minimum change to the attribute that will result in a report being sent." SL_CLI_UNIT_SEPARATOR,
+                 {SL_CLI_ARG_UINT8, SL_CLI_ARG_UINT16, SL_CLI_ARG_UINT16, SL_CLI_ARG_UINT8, SL_CLI_ARG_UINT16, SL_CLI_ARG_UINT16, SL_CLI_ARG_UINT32, SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_clear_hyphen_last_hyphen_report_hyphen_time = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_clear_last_report_time,
+                 "Clears the last report time of attributes.",
+                  "",
+                 {SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_reporting_test_hyphen_timing = \
+  SL_CLI_COMMAND(sli_zigbee_af_reporting_cli_test_timing,
+                 "FOR TESTING PURPOSES - gather timing metrics for reporting table operations.",
+                  "",
+                 {SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_idle_hyphen_sleep_status = \
   SL_CLI_COMMAND(sl_zigbee_af_idle_sleep_status_command,
@@ -982,6 +1031,13 @@ static const sl_cli_command_entry_t zigbee_print_group_table[] = {
 static const sl_cli_command_info_t cli_cmd_grp_zigbee_print = \
   SL_CLI_COMMAND_GROUP(zigbee_print_group_table, "");
 
+static const sl_cli_command_entry_t find_hyphen_and_hyphen_bind_group_table[] = {
+  { "initiator", &cli_cmd_find_hyphen_and_hyphen_bind_initiator, false },
+  { NULL, NULL, false },
+};
+static const sl_cli_command_info_t cli_cmd_grp_find_hyphen_and_hyphen_bind = \
+  SL_CLI_COMMAND_GROUP(find_hyphen_and_hyphen_bind_group_table, "Find and bind related commands.");
+
 static const sl_cli_command_entry_t shell_mask_1_group_table[] = {
   { "set", &cli_cmd_shell_mask_1_set, false },
   { "add", &cli_cmd_shell_mask_1_add, false },
@@ -1002,6 +1058,18 @@ static const sl_cli_command_entry_t network_hyphen_steering_group_table[] = {
 static const sl_cli_command_info_t cli_cmd_grp_network_hyphen_steering = \
   SL_CLI_COMMAND_GROUP(network_hyphen_steering_group_table, "network-steering related commands.");
 
+static const sl_cli_command_entry_t reporting_group_table[] = {
+  { "print", &cli_cmd_reporting_print, false },
+  { "clear", &cli_cmd_reporting_clear, false },
+  { "remove", &cli_cmd_reporting_remove, false },
+  { "add", &cli_cmd_reporting_add, false },
+  { "clear-last-report-time", &cli_cmd_reporting_clear_hyphen_last_hyphen_report_hyphen_time, false },
+  { "test-timing", &cli_cmd_reporting_test_hyphen_timing, false },
+  { NULL, NULL, false },
+};
+static const sl_cli_command_info_t cli_cmd_grp_reporting = \
+  SL_CLI_COMMAND_GROUP(reporting_group_table, "reporting related commands.");
+
 static const sl_cli_command_entry_t idle_hyphen_sleep_group_table[] = {
   { "status", &cli_cmd_idle_hyphen_sleep_status, false },
   { "force-awake", &cli_cmd_idle_hyphen_sleep_force_hyphen_awake, false },
@@ -1021,7 +1089,9 @@ static const sl_cli_command_info_t cli_cmd_grp_update_hyphen_tc_hyphen_link_hyph
 
 static const sl_cli_command_entry_t plugin_group_table[] = {
   { "counters", &cli_cmd_grp_counters, false },
+  { "find-and-bind", &cli_cmd_grp_find_hyphen_and_hyphen_bind, false },
   { "network-steering", &cli_cmd_grp_network_hyphen_steering, false },
+  { "reporting", &cli_cmd_grp_reporting, false },
   { "idle-sleep", &cli_cmd_grp_idle_hyphen_sleep, false },
   { "update-tc-link-key", &cli_cmd_grp_update_hyphen_tc_hyphen_link_hyphen_key, false },
   { NULL, NULL, false },

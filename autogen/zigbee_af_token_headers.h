@@ -21,3 +21,5 @@
 // *** Generated file. Do not edit! ***
 //
 
+#include "app/framework/plugin/reporting/reporting-tokens.h"
+

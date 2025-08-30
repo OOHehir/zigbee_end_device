@@ -16,3 +16,6 @@
  * sections of the MSLA applicable to Source Code.
  *
  ******************************************************************************/
+#define ZCL_CLUSTER_IDENTIFY_CLIENT_INCOMING_COMMAND_IDENTIFY_QUERY_RESPONSE_ENABLED
+#define ZCL_CLUSTER_IDENTIFY_SERVER_INCOMING_COMMAND_IDENTIFY_ENABLED
+#define ZCL_CLUSTER_IDENTIFY_SERVER_INCOMING_COMMAND_IDENTIFY_QUERY_ENABLED

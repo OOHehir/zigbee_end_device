@@ -1,6 +1,6 @@
 {
   "fileFormat": 2,
-  "featureLevel": 99,
+  "featureLevel": 107,
   "creator": "zap",
   "keyValuePairs": [
     {
@@ -19,7 +19,7 @@
   "package": [
     {
       "pathRelativity": "relativeToZap",
-      "path": "../../../../../../../../../app/zcl/zcl-zap.json",
+      "path": "../../../../../owen/SimplicityStudio/SDKs/simplicity_sdk_2/app/zcl/zcl-zap.json",
       "type": "zcl-properties",
       "category": "zigbee",
       "version": 1,
@@ -27,7 +27,7 @@
     },
     {
       "pathRelativity": "relativeToZap",
-      "path": "../../../../../gen-template/gen-templates.json",
+      "path": "../../../../../owen/SimplicityStudio/SDKs/simplicity_sdk_2/protocol/zigbee/app/framework/gen-template/gen-templates.json",
       "type": "gen-templates-json",
       "category": "zigbee",
       "version": "zigbee-v0"
@@ -41,14 +41,16 @@
         "code": 65535,
         "profileId": 65535,
         "label": "Custom ZCL Device Type",
-        "name": "Custom ZCL Device Type"
+        "name": "Custom ZCL Device Type",
+        "deviceTypeOrder": 0
       },
       "deviceTypes": [
         {
           "code": 65535,
           "profileId": 65535,
           "label": "Custom ZCL Device Type",
-          "name": "Custom ZCL Device Type"
+          "name": "Custom ZCL Device Type",
+          "deviceTypeOrder": 0
         }
       ],
       "deviceVersions": [
@@ -128,7 +130,8 @@
       "endpointTypeIndex": 0,
       "profileId": 65535,
       "endpointId": 1,
-      "networkId": 0
+      "networkId": 0,
+      "parentEndpointIdentifier": null
     }
   ]
 }

@@ -24,7 +24,9 @@ void sli_zigbee_af_event_init(void)
 {
   sli_zigbee_af_zcl_framework_core_init_events_callback(SL_ZIGBEE_INIT_LEVEL_EVENT);
   sli_zigbee_af_service_discovery_init_events_callback(SL_ZIGBEE_INIT_LEVEL_EVENT);
+  sli_zigbee_af_find_and_bind_initiator_init_callback(SL_ZIGBEE_INIT_LEVEL_EVENT);
   sli_zigbee_af_network_steering_init_callback(SL_ZIGBEE_INIT_LEVEL_EVENT);
+  sl_zigbee_af_reporting_init_cb(SL_ZIGBEE_INIT_LEVEL_EVENT);
   sli_zigbee_af_scan_dispatch_init_callback(SL_ZIGBEE_INIT_LEVEL_EVENT);
   sli_zigbee_af_update_tc_link_key_begin_tc_link_key_update_init(SL_ZIGBEE_INIT_LEVEL_EVENT);
 }
@@ -39,6 +41,7 @@ void sli_zigbee_af_init_done(void)
   sli_zigbee_af_init_cb(SL_ZIGBEE_INIT_LEVEL_DONE);
   sli_zigbee_zcl_cli_init(SL_ZIGBEE_INIT_LEVEL_DONE);
   sl_zigbee_af_init(SL_ZIGBEE_INIT_LEVEL_DONE);
+  sl_zigbee_af_reporting_init_cb(SL_ZIGBEE_INIT_LEVEL_DONE);
   sli_zigbee_af_network_init(SL_ZIGBEE_INIT_LEVEL_DONE);
 }
 

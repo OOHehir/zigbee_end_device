@@ -153,6 +153,10 @@ void sli_zigbee_af_network_steering_stack_status_callback(
       // Stack status
       sl_status_t status)
 ;
+void sli_zigbee_af_reporting_stack_status_callback(
+      // Stack status
+      sl_status_t status)
+;
 
 // Redirect Outgoing Message
 void sli_zigbee_af_redirect_outgoing_message(

@@ -1126,6 +1126,42 @@ Example syntax (.slcc or .slcp) for populating this file:
 </div>
 <div class="group">
   <div class="group-header">
+    <h3 class="group-name"> find-and-bind</h3>
+  </div>
+  <div class="group-info">
+    <span class="help">Find and bind related commands.</span>
+    
+    <div class="command-list">
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> find-and-bind initiator</span>
+        <span class="command-argument">u8</span>
+      <span class="command-handler">sl_zigbee_af_find_and_bind_initiator_start_command</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Makes this node start the initiator part of the finding and binding process.</div>
+      
+      
+      <div class="argument-list">
+      <div class="arguments-title">Arguments</div>
+      <ul>
+        <li>
+        <span class="argument-name">u8</span>The endpoint on which to begin the Finding and Binding initiator process
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<div class="group">
+  <div class="group-header">
     <h3 class="group-name"> network-steering</h3>
   </div>
   <div class="group-info">
@@ -1224,6 +1260,151 @@ Example syntax (.slcc or .slcp) for populating this file:
     </div>
   </div>
 </div></div>
+  </div>
+</div>
+<div class="group">
+  <div class="group-header">
+    <h3 class="group-name"> reporting</h3>
+  </div>
+  <div class="group-info">
+    <span class="help">reporting related commands.</span>
+    
+    <div class="command-list">
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting print</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_print</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Prints the report table.</div>
+      
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting clear</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_clear</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Clears all entries from the report table.</div>
+      
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting remove</span>
+        <span class="command-argument">u8</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_remove</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Removes an entry from the report table.</div>
+      
+      
+      <div class="argument-list">
+      <div class="arguments-title">Arguments</div>
+      <ul>
+        <li>
+        <span class="argument-name">u8</span>The index of the report to be removed
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting add</span>
+        <span class="command-argument">u8</span>
+        <span class="command-argument">u16</span>
+        <span class="command-argument">u16</span>
+        <span class="command-argument">u8</span>
+        <span class="command-argument">u16</span>
+        <span class="command-argument">u16</span>
+        <span class="command-argument">u32</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_add</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Adds a new entry to the report table.</div>
+      
+      
+      <div class="argument-list">
+      <div class="arguments-title">Arguments</div>
+      <ul>
+        <li>
+        <span class="argument-name">u8</span>The local endpoint from which the attribute is reported
+        </li>
+        <li>
+        <span class="argument-name">u16</span>The cluster where the attribute is located
+        </li>
+        <li>
+        <span class="argument-name">u16</span>The ID of the attribute being reported
+        </li>
+        <li>
+        <span class="argument-name">u8</span>0 for client-side attributes or 1 for server-side attributes
+        </li>
+        <li>
+        <span class="argument-name">u16</span>The minimum reporting interval, measured in seconds.
+        </li>
+        <li>
+        <span class="argument-name">u16</span>The maximum reporting interval, measured in seconds.
+        </li>
+        <li>
+        <span class="argument-name">u32</span>The minimum change to the attribute that will result in a report being sent.
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting clear-last-report-time</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_clear_last_report_time</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Clears the last report time of attributes.</div>
+      
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> reporting test-timing</span>
+      <span class="command-handler">sli_zigbee_af_reporting_cli_test_timing</span>
+    </div>
+    <div class="command-info">
+      <div class="help">FOR TESTING PURPOSES - gather timing metrics for reporting table operations.</div>
+      
+      
+    </div>
+  </div>
+    </div>
   </div>
 </div>
 <div class="group">

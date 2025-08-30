@@ -218,6 +218,7 @@ void sli_zigbee_af_stack_status(
 
 sli_zigbee_af_stack_status_callback(status);
 sli_zigbee_af_network_steering_stack_status_callback(status);
+sli_zigbee_af_reporting_stack_status_callback(status);
 }
 
 

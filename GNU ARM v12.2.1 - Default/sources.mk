@@ -25,6 +25,7 @@ simplicity_sdk_2025.6.1/platform/bootloader/api \
 simplicity_sdk_2025.6.1/platform/bootloader/app_properties \
 simplicity_sdk_2025.6.1/platform/bootloader/core/flash \
 simplicity_sdk_2025.6.1/platform/common/src \
+simplicity_sdk_2025.6.1/platform/driver/button/src \
 simplicity_sdk_2025.6.1/platform/driver/debug/src \
 simplicity_sdk_2025.6.1/platform/driver/gpio/src \
 simplicity_sdk_2025.6.1/platform/driver/leddrv/src \
@@ -60,9 +61,12 @@ simplicity_sdk_2025.6.1/platform/service/token_manager/src \
 simplicity_sdk_2025.6.1/platform/service/udelay/src \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/cli \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/common \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/basic \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/counters \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/debug-print \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/reporting \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/scan-dispatch \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/update-tc-link-key \
 simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/zcl_cli \
