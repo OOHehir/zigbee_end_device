@@ -1,0 +1,94 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+S79_SRCS := 
+OBJ_SRCS := 
+S_SRCS := 
+ASM_SRCS := 
+C_SRCS := 
+S79_UPPER_SRCS := 
+S_UPPER_SRCS := 
+O_SRCS := 
+EXECUTABLES := 
+OBJS := 
+C_DEPS := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+. \
+autogen \
+simplicity_sdk_2025.6.1/hardware/board/src \
+simplicity_sdk_2025.6.1/hardware/driver/configuration_over_swo/src \
+simplicity_sdk_2025.6.1/platform/Device/SiliconLabs/MGM21/Source \
+simplicity_sdk_2025.6.1/platform/bootloader/api \
+simplicity_sdk_2025.6.1/platform/bootloader/app_properties \
+simplicity_sdk_2025.6.1/platform/bootloader/core/flash \
+simplicity_sdk_2025.6.1/platform/common/src \
+simplicity_sdk_2025.6.1/platform/driver/debug/src \
+simplicity_sdk_2025.6.1/platform/driver/gpio/src \
+simplicity_sdk_2025.6.1/platform/driver/leddrv/src \
+simplicity_sdk_2025.6.1/platform/emdrv/dmadrv/src \
+simplicity_sdk_2025.6.1/platform/emdrv/nvm3/src \
+simplicity_sdk_2025.6.1/platform/emlib/src \
+simplicity_sdk_2025.6.1/platform/peripheral/src \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154_uc \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/fem_util \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/pa-conversions \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/rail_util_ant_div \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/rail_util_power_manager_init \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/rail_util_pti \
+simplicity_sdk_2025.6.1/platform/radio/rail_lib/plugin/rail_util_rf_path \
+simplicity_sdk_2025.6.1/platform/security/sl_component/se_manager/src \
+simplicity_sdk_2025.6.1/platform/security/sl_component/sl_mbedtls_support/src \
+simplicity_sdk_2025.6.1/platform/security/sl_component/sl_psa_driver/src \
+simplicity_sdk_2025.6.1/platform/service/cli/src \
+simplicity_sdk_2025.6.1/platform/service/clock_manager/src \
+simplicity_sdk_2025.6.1/platform/service/device_manager/devices \
+simplicity_sdk_2025.6.1/platform/service/device_manager/src \
+simplicity_sdk_2025.6.1/platform/service/interrupt_manager/src \
+simplicity_sdk_2025.6.1/platform/service/iostream/src \
+simplicity_sdk_2025.6.1/platform/service/legacy_hal/src \
+simplicity_sdk_2025.6.1/platform/service/legacy_hal_wdog/src \
+simplicity_sdk_2025.6.1/platform/service/memory_manager/src \
+simplicity_sdk_2025.6.1/platform/service/power_manager/src/common \
+simplicity_sdk_2025.6.1/platform/service/power_manager/src/sleep_loop \
+simplicity_sdk_2025.6.1/platform/service/sl_main/src \
+simplicity_sdk_2025.6.1/platform/service/sleeptimer/src \
+simplicity_sdk_2025.6.1/platform/service/token_manager/legacy/src \
+simplicity_sdk_2025.6.1/platform/service/token_manager/src \
+simplicity_sdk_2025.6.1/platform/service/udelay/src \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/cli \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/common \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/counters \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/debug-print \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/scan-dispatch \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/update-tc-link-key \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/zcl_cli \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/security \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/service-function \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/signature-decode \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/util/common \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/util/counters \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/util/serial \
+simplicity_sdk_2025.6.1/protocol/zigbee/app/util/zigbee-framework \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/config \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/core \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/framework \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/gp \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/internal/src/baremetal \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/internal/src/stubs \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/mac \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/platform \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/routing/zigbee \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/security \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/stubs \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/zigbee \
+simplicity_sdk_2025.6.1/protocol/zigbee/stack/zll \
+simplicity_sdk_2025.6.1/util/plugin/byte_utilities \
+simplicity_sdk_2025.6.1/util/third_party/mbedtls/library \
+simplicity_sdk_2025.6.1/util/third_party/printf \
+simplicity_sdk_2025.6.1/util/third_party/printf/src \
+
