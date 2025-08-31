@@ -237,8 +237,7 @@ void sl_button_on_change(const sl_button_t *handle)
 {
   if (SL_SIMPLE_BUTTON_INSTANCE(BUTTON0) == handle) {
     if (sl_button_get_state(handle) == SL_SIMPLE_BUTTON_RELEASED) {
-      sl_zigbee_app_debug_print("Release");
-      //sl_zigbee_af_event_set_active(&network_control_event_control);
+      sl_zigbee_af_event_set_active(&network_control_event_control);
     }
   }
 }
