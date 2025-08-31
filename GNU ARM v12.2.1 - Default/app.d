@@ -168,7 +168,21 @@ app.o: ../app.c \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util/global-other-callback.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/service-function/sl_service_function.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util/client-api.h \
- /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/util/serial/sl_zigbee_command_interpreter.h
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/util/serial/sl_zigbee_command_interpreter.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util/af-main.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/util/common/common.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/config/network-steering-config.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_button_instances.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/gpio/inc/sl_gpio.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/device_manager/inc/sl_device_gpio.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_led_instances.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/include/af.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/legacy_hal/inc/platform-header.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/common/inc/sl_core.h:
@@ -339,3 +353,17 @@ app.o: ../app.c \
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/service-function/sl_service_function.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util/client-api.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/util/serial/sl_zigbee_command_interpreter.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/util/af-main.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/util/common/common.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h:
+/home/repo/SimplicityStudio/zigbee_end_device/config/network-steering-config.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h:
+/home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_button_instances.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/gpio/inc/sl_gpio.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/device_manager/inc/sl_device_gpio.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h:
+/home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_led_instances.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h:
