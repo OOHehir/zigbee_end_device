@@ -5,7 +5,7 @@
   "name" : "Silicon-Laboratories",
   "documentNamespace" : "https://silabs.com",
   "creationInfo" : {
-    "created" : "2025-08-30T15:53:42.845316742Z",
+    "created" : "2025-08-31T20:51:35.162870954Z",
     "creators" : [ "Tool: Silicon Labs Configuration Tooling" ]
   },
   "comment" : "TERMS OF USE - SILICON LABORATORIES INC.\n(With respect to Silicon Labs software components, this Software Bill of Materials (SBOM) is based upon Silicon Labs'\nreview and analysis of the code version when released.  It is provided \"AS IS\" and does not modify, change or alter\nthe terms or conditions of your use of Silicon Labs' software and/or SDKs based upon license terms and/or agreements\nassociated with this software or SDKs when distributed to you, received by you, or installed by you.  Further, no\nwarranties or obligations are created by this SBOM.  It is your obligation to comply with the terms of licenses\nreferenced in this SBOM.)",
@@ -20,6 +20,14 @@
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA",
     "name" : "MGM210PA32JIA",
+    "versionInfo" : "2025.6.1",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-brd4002a",
+    "name" : "BRD4002A",
     "versionInfo" : "2025.6.1",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -204,14 +212,6 @@
   }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-bit",
     "name" : "Bit Operations Library",
-    "versionInfo" : "2025.6.1",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "Zlib"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-brd4001a",
-    "name" : "BRD4001A",
     "versionInfo" : "2025.6.1",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -1137,22 +1137,6 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator",
-    "name" : "Find and Bind Initiator",
-    "versionInfo" : "2025.6.1",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "MSLA"
-  }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic",
-    "name" : "Basic Server Cluster",
-    "versionInfo" : "2025.6.1",
-    "primaryPackagePurpose" : "LIBRARY",
-    "downloadLocation" : "NOASSERTION",
-    "supplier" : "Organization: Silicon Laboratories, Inc.",
-    "licenseConcluded" : "MSLA"
-  }, {
     "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack",
     "name" : "Pro Leaf Stack",
     "versionInfo" : "2025.6.1",
@@ -1543,8 +1527,8 @@
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
   }, {
-    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting",
-    "name" : "Reporting",
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic",
+    "name" : "Basic Server Cluster",
     "versionInfo" : "2025.6.1",
     "primaryPackagePurpose" : "LIBRARY",
     "downloadLocation" : "NOASSERTION",
@@ -1574,6 +1558,22 @@
     "downloadLocation" : "NOASSERTION",
     "supplier" : "Organization: Silicon Laboratories, Inc.",
     "licenseConcluded" : "Zlib"
+  }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting",
+    "name" : "Reporting",
+    "versionInfo" : "2025.6.1",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "MSLA"
+  }, {
+    "SPDXID" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator",
+    "name" : "Find and Bind Initiator",
+    "versionInfo" : "2025.6.1",
+    "primaryPackagePurpose" : "LIBRARY",
+    "downloadLocation" : "NOASSERTION",
+    "supplier" : "Organization: Silicon Laboratories, Inc.",
+    "licenseConcluded" : "MSLA"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
@@ -1582,6 +1582,10 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-brd4002a",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
@@ -1674,10 +1678,6 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-bit",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-brd4001a",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
@@ -2137,14 +2137,6 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic",
-    "relationshipType" : "CONTAINS"
-  }, {
-    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack",
     "relationshipType" : "CONTAINS"
   }, {
@@ -2329,7 +2321,7 @@
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
-    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic",
     "relationshipType" : "CONTAINS"
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
@@ -2342,6 +2334,14 @@
   }, {
     "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
     "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-simple_button_core",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting",
+    "relationshipType" : "CONTAINS"
+  }, {
+    "spdxElementId" : "SPDXRef-simplicity_sdk-2025.6.1",
+    "relatedSpdxElement" : "SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator",
     "relationshipType" : "CONTAINS"
   } ]
 }

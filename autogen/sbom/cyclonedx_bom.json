@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-08-30T15:53:42.845316742Z",
+    "timestamp" : "2025-08-31T20:51:35.162870954Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -26,6 +26,18 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:MGM210PA32JIA",
       "name" : "MGM210PA32JIA",
+      "version" : "2025.6.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.1:brd4002a",
+      "name" : "BRD4002A",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -302,18 +314,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:bit",
       "name" : "Bit Operations Library",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:brd4001a",
-      "name" : "BRD4001A",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -1700,30 +1700,6 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator",
-      "name" : "Find and Bind Initiator",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "MSLA"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_basic",
-      "name" : "Basic Server Cluster",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "MSLA"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_pro_leaf_stack",
       "name" : "Pro Leaf Stack",
       "version" : "2025.6.1",
@@ -2353,8 +2329,8 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_reporting",
-      "name" : "Reporting",
+      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_basic",
+      "name" : "Basic Server Cluster",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -2397,6 +2373,30 @@
       },
       "licenses" : [ {
         "expression" : "Zlib"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_reporting",
+      "name" : "Reporting",
+      "version" : "2025.6.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator",
+      "name" : "Find and Bind Initiator",
+      "version" : "2025.6.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
       } ]
     } ]
   } ]

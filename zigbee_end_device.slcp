@@ -24,6 +24,7 @@ sdk: {id: simplicity_sdk, version: 2025.6.1}
 toolchain_settings: []
 component:
 - {id: MGM210PA32JIA}
+- {id: brd4002a}
 - {id: brd4308a_a02}
 - instance: [example]
   id: cli

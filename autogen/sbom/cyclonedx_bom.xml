@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-08-30T15:53:42.845316742Z</timestamp>
+    <timestamp>2025-08-31T20:51:35.162870954Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -27,6 +27,16 @@ referenced in this SBOM.)
       <components>
         <component bom-ref="simplicity_sdk:2025.6.1:MGM210PA32JIA" type="library">
           <name>MGM210PA32JIA</name>
+          <version>2025.6.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.1:brd4002a" type="library">
+          <name>BRD4002A</name>
           <version>2025.6.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -257,16 +267,6 @@ referenced in this SBOM.)
         </component>
         <component bom-ref="simplicity_sdk:2025.6.1:bit" type="library">
           <name>Bit Operations Library</name>
-          <version>2025.6.1</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2025.6.1:brd4001a" type="library">
-          <name>BRD4001A</name>
           <version>2025.6.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -1425,26 +1425,6 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator" type="library">
-          <name>Find and Bind Initiator</name>
-          <version>2025.6.1</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MSLA</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_basic" type="library">
-          <name>Basic Server Cluster</name>
-          <version>2025.6.1</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MSLA</expression>
-          </licenses>
-        </component>
         <component bom-ref="simplicity_sdk:2025.6.1:zigbee_pro_leaf_stack" type="library">
           <name>Pro Leaf Stack</name>
           <version>2025.6.1</version>
@@ -2004,8 +1984,8 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_reporting" type="library">
-          <name>Reporting</name>
+        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_basic" type="library">
+          <name>Basic Server Cluster</name>
           <version>2025.6.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
@@ -2042,6 +2022,26 @@ referenced in this SBOM.)
 	      </supplier>
           <licenses>
             <expression>Zlib</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_reporting" type="library">
+          <name>Reporting</name>
+          <version>2025.6.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>MSLA</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator" type="library">
+          <name>Find and Bind Initiator</name>
+          <version>2025.6.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>MSLA</expression>
           </licenses>
         </component>
       </components>

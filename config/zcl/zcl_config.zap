@@ -130,19 +130,19 @@
           "enabled": 1,
           "commands": [
             {
-              "name": "Identify",
-              "code": 0,
-              "mfgCode": null,
-              "source": "client",
-              "isIncoming": 0,
-              "isEnabled": 1
-            },
-            {
               "name": "IdentifyQueryResponse",
               "code": 0,
               "mfgCode": null,
               "source": "server",
               "isIncoming": 1,
+              "isEnabled": 1
+            },
+            {
+              "name": "Identify",
+              "code": 0,
+              "mfgCode": null,
+              "source": "client",
+              "isIncoming": 0,
               "isEnabled": 1
             },
             {
@@ -182,19 +182,19 @@
           "enabled": 1,
           "commands": [
             {
-              "name": "Identify",
-              "code": 0,
-              "mfgCode": null,
-              "source": "client",
-              "isIncoming": 1,
-              "isEnabled": 1
-            },
-            {
               "name": "IdentifyQueryResponse",
               "code": 0,
               "mfgCode": null,
               "source": "server",
               "isIncoming": 0,
+              "isEnabled": 1
+            },
+            {
+              "name": "Identify",
+              "code": 0,
+              "mfgCode": null,
+              "source": "client",
+              "isIncoming": 1,
               "isEnabled": 1
             },
             {

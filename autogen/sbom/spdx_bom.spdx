@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-08-30T15:53:42.845316742Z
+Created: 2025-08-31T20:51:35.162870954Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2025.6.1
 
@@ -26,6 +26,7 @@ PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-brd4002a
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-brd4308a_a02
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-cli
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-clock_manager
@@ -49,7 +50,6 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-led
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-bit
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-brd4001a
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-clock_manager_init_hal_s2
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-slist
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_gpio
@@ -163,8 +163,6 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_init
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-gpio
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common
@@ -200,10 +198,12 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-radio_priority_configurator
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-endianness
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-button
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button_core
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
 
 ## Package Information
 PackageName: MGM210PA32JIA
@@ -215,6 +215,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: BRD4002A
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-brd4002a
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-brd4002a CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: BRD4308A rev A02
@@ -468,17 +479,6 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-bit CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: BRD4001A
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-brd4001a
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-brd4001a CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Clock Manager Init HAL Series 2
@@ -1739,28 +1739,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-gpio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Find and Bind Initiator
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Basic Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
 PackageName: Pro Leaf Stack
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
 PackageVersion: 2025.6.1
@@ -2300,15 +2278,15 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-endianness CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Reporting
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
+PackageName: Basic Server Cluster
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
 PackageVersion: 2025.6.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Simple Button
@@ -2342,3 +2320,25 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_button_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Reporting
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Find and Bind Initiator
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
