@@ -38,9 +38,7 @@
 #include "app/framework/util/af-main.h"
 #include "app/util/common/common.h"
 #include "app/framework/plugin/network-steering/network-steering.h"
-#include \
-  "app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h"
-
+#include "app/framework/plugin/find-and-bind-initiator/find-and-bind-initiator.h"
 #include "sl_simple_button_instances.h"
 
 #if defined(SL_CATALOG_LED0_PRESENT)
@@ -120,7 +118,6 @@ static uint8_t binding_table_unicast_binding_count(void);
  */
 void sl_zigbee_af_main_init_cb(void)
 {
-  //sl_zigbee_app_debug_print("Zigbee End Device example\n");
   sl_zigbee_af_event_init(&run_temperature_event_control,
                           run_temperature_event_handler);
   sl_zigbee_af_event_set_delay_ms(&run_temperature_event_control,
@@ -224,8 +221,7 @@ void sl_zigbee_af_radio_needs_calibrating_cb(void)
   sl_mac_calibrate_current_channel();
 }
 
-
-/***************************************************************************//**
+/***************************************************************************
  * A callback called in interrupt context whenever a button changes its state.
  *
  * @remark Can be implemented by the application if required. This function
@@ -241,7 +237,8 @@ void sl_button_on_change(const sl_button_t *handle)
 {
   if (SL_SIMPLE_BUTTON_INSTANCE(BUTTON0) == handle) {
     if (sl_button_get_state(handle) == SL_SIMPLE_BUTTON_RELEASED) {
-      sl_zigbee_af_event_set_active(&network_control_event_control);
+      sl_zigbee_app_debug_print("Release");
+      //sl_zigbee_af_event_set_active(&network_control_event_control);
     }
   }
 }
