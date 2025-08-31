@@ -10,7 +10,6 @@
     <file name="sl_cli_config_example.h" generated="true" linked="false"/>
     <file name="sl_clock_manager_oscillator_config.h" generated="true" linked="false"/>
     <file name="sl_clock_manager_tree_config.h" generated="true" linked="false"/>
-    <file name="sl_simple_led_led0_config.h" generated="true" linked="false"/>
     <file name="zigbee_core_cli_config.h" generated="true" linked="false"/>
     <file name="counters-config.h" generated="true" linked="false"/>
     <file name="sl_zigbee_debug_print_config.h" generated="true" linked="false"/>
@@ -50,10 +49,10 @@
     <file name="sl_802154_radio_priority_config.h" generated="true" linked="false"/>
     <file name="sl_mbedtls_config.h" generated="true" linked="false"/>
     <file name="sl_mbedtls_device_config.h" generated="true" linked="false"/>
-    <file name="sl_simple_button_btn0_config.h" generated="true" linked="false"/>
-    <file name="sl_simple_button_config.h" generated="true" linked="false"/>
     <file name="reporting-config.h" generated="true" linked="false"/>
     <file name="find-and-bind-initiator-config.h" generated="true" linked="false"/>
+    <file name="sl_simple_button_config.h" generated="true" linked="false"/>
+    <file name="sl_simple_button_btn0_config.h" generated="true" linked="false"/>
   </folder>
   <includePath uri="studio:/project/config"/>
   <includePath uri="studio:/project/config/prioconf"/>

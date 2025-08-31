@@ -178,11 +178,7 @@ app.o: ../app.c \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/gpio/inc/sl_gpio.h \
- /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/device_manager/inc/sl_device_gpio.h \
- /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h \
- /home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_led_instances.h \
- /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h \
- /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/device_manager/inc/sl_device_gpio.h
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/protocol/zigbee/app/framework/include/af.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/legacy_hal/inc/platform-header.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/common/inc/sl_core.h:
@@ -363,7 +359,3 @@ app.o: ../app.c \
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/gpio/inc/sl_gpio.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/device_manager/inc/sl_device_gpio.h:
-/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h:
-/home/repo/SimplicityStudio/zigbee_end_device/autogen/sl_simple_led_instances.h:
-/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h:
-/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h:

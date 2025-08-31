@@ -127,16 +127,6 @@
             <file name="sl_gpio.h" linked="false" uri="studio:/sdk/platform/driver/gpio/inc/sl_gpio.h"/>
           </folder>
         </folder>
-        <folder name="leddrv">
-          <folder name="src">
-            <file name="sl_led.c" linked="false" uri="studio:/sdk/platform/driver/leddrv/src/sl_led.c"/>
-            <file name="sl_simple_led.c" linked="false" uri="studio:/sdk/platform/driver/leddrv/src/sl_simple_led.c"/>
-          </folder>
-          <folder name="inc">
-            <file name="sl_led.h" linked="false" uri="studio:/sdk/platform/driver/leddrv/inc/sl_led.h"/>
-            <file name="sl_simple_led.h" linked="false" uri="studio:/sdk/platform/driver/leddrv/inc/sl_simple_led.h"/>
-          </folder>
-        </folder>
       </folder>
       <folder name="service">
         <folder name="cli">
@@ -1395,7 +1385,6 @@
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/interrupt_manager/src"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/interrupt_manager/inc/arm"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/iostream/inc"/>
-  <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/legacy_hal/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/service/legacy_hal_wdog/inc"/>
   <includePath uri="studio:/project/simplicity_sdk_2025.6.1/platform/security/sl_component/sl_mbedtls_support/config"/>

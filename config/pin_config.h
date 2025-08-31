@@ -167,6 +167,13 @@
 #define _PIN                                     0
 #endif
 
+#ifndef btn0_PORT                               
+#define btn0_PORT                                SL_GPIO_PORT_B
+#endif
+#ifndef btn0_PIN                                
+#define btn0_PIN                                 0
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 #endif // PIN_CONFIG_H

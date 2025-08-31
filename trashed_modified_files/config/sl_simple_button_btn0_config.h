@@ -1,9 +1,9 @@
 /***************************************************************************//**
  * @file
- * @brief LED Driver
+ * @brief Simple Button Driver User Config
  *******************************************************************************
  * # License
- * <b>Copyright 2019 Silicon Laboratories Inc. www.silabs.com</b>
+ * <b>Copyright 2024 Silicon Laboratories Inc. www.silabs.com</b>
  *******************************************************************************
  *
  * SPDX-License-Identifier: Zlib
@@ -28,29 +28,34 @@
  *
  ******************************************************************************/
 
-#include "sl_led.h"
+#ifndef SL_SIMPLE_BUTTON_BTN0_CONFIG_H
+#define SL_SIMPLE_BUTTON_BTN0_CONFIG_H
 
-sl_status_t sl_led_init(const sl_led_t *led_handle)
-{
-  return led_handle->init(led_handle->context);
-}
+#include "sl_gpio.h"
+#include "sl_simple_button.h"
 
-void sl_led_turn_on(const sl_led_t *led_handle)
-{
-  led_handle->turn_on(led_handle->context);
-}
+// <<< Use Configuration Wizard in Context Menu >>>
 
-void sl_led_turn_off(const sl_led_t *led_handle)
-{
-  led_handle->turn_off(led_handle->context);
-}
+// <o SL_SIMPLE_BUTTON_BTN0_MODE>
+// <SL_SIMPLE_BUTTON_MODE_INTERRUPT=> Interrupt
+// <SL_SIMPLE_BUTTON_MODE_POLL_AND_DEBOUNCE=> Poll and Debounce
+// <SL_SIMPLE_BUTTON_MODE_POLL=> Poll
+// <i> Default: SL_SIMPLE_BUTTON_MODE_INTERRUPT
+#define SL_SIMPLE_BUTTON_BTN0_MODE       SL_SIMPLE_BUTTON_MODE_INTERRUPT
+// <<< end of configuration section >>>
 
-void sl_led_toggle(const sl_led_t *led_handle)
-{
-  led_handle->toggle(led_handle->context);
-}
+// <<< sl:start pin_tool >>>
 
-sl_led_state_t sl_led_get_state(const sl_led_t *led_handle)
-{
-  return led_handle->get_state(led_handle->context);
-}
+// <gpio> SL_SIMPLE_BUTTON_BTN0
+// $[GPIO_SL_SIMPLE_BUTTON_BTN0]
+#ifndef SL_SIMPLE_BUTTON_BTN0_PORT              
+#define SL_SIMPLE_BUTTON_BTN0_PORT               SL_GPIO_PORT_B
+#endif
+#ifndef SL_SIMPLE_BUTTON_BTN0_PIN               
+#define SL_SIMPLE_BUTTON_BTN0_PIN                0
+#endif
+// [GPIO_SL_SIMPLE_BUTTON_BTN0]$
+
+// <<< sl:end pin_tool >>>
+
+#endif // SL_SIMPLE_BUTTON_BTN0_CONFIG_H

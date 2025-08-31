@@ -3,7 +3,7 @@
   "specVersion" : "1.6",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2025-08-31T20:51:35.162870954Z",
+    "timestamp" : "2025-08-31T21:21:23.141276853Z",
     "authors" : [ {
       "name" : "Silicon Laboratories, Inc."
     } ],
@@ -86,18 +86,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:iostream_recommended_console",
       "name" : "IO Stream: Recommended Stream for a console",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:simple_led",
-      "name" : "Simple LED",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -290,18 +278,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:device_manager",
       "name" : "Device Manager",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:led",
-      "name" : "Generic LED API",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -938,18 +914,6 @@
       "type" : "library",
       "bom-ref" : "simplicity_sdk:2025.6.1:MGM210PA32JIA_config",
       "name" : "MGM210PA32JIA config",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:simple_led_core",
-      "name" : "Simple LED Core",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -2341,8 +2305,32 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:simple_button",
-      "name" : "Simple Button",
+      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_reporting",
+      "name" : "Reporting",
+      "version" : "2025.6.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator",
+      "name" : "Find and Bind Initiator",
+      "version" : "2025.6.1",
+      "supplier" : {
+        "name" : "Silicon Laboratories, Inc."
+      },
+      "licenses" : [ {
+        "expression" : "MSLA"
+      } ]
+    }, {
+      "scope" : "required",
+      "type" : "library",
+      "bom-ref" : "simplicity_sdk:2025.6.1:simple_button_core",
+      "name" : "Simple Button Configuration",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
@@ -2365,38 +2353,14 @@
     }, {
       "scope" : "required",
       "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:simple_button_core",
-      "name" : "Simple Button Configuration",
+      "bom-ref" : "simplicity_sdk:2025.6.1:simple_button",
+      "name" : "Simple Button",
       "version" : "2025.6.1",
       "supplier" : {
         "name" : "Silicon Laboratories, Inc."
       },
       "licenses" : [ {
         "expression" : "Zlib"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_reporting",
-      "name" : "Reporting",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "MSLA"
-      } ]
-    }, {
-      "scope" : "required",
-      "type" : "library",
-      "bom-ref" : "simplicity_sdk:2025.6.1:zigbee_find_and_bind_initiator",
-      "name" : "Find and Bind Initiator",
-      "version" : "2025.6.1",
-      "supplier" : {
-        "name" : "Silicon Laboratories, Inc."
-      },
-      "licenses" : [ {
-        "expression" : "MSLA"
       } ]
     } ]
   } ]
