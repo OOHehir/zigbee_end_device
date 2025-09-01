@@ -6,8 +6,6 @@ Based on the Zigbee Minimal example with the following changes:
 
 In the Simplicity Studio, go to the SOFTWARE COMPONENTS tab and install the software components:
 
-***WAIT BETWEEN STEPS UNTIL ALL PROCESSING IS COMPLETE BEFORE CONTINUING***
-
 - [Zigbee] → [Utility] → [Zigbee Device Config] → Configure as End Device
 - [Zigbee] → [Stack] → [Pro Core] → [Pro Leaf Stack] → Uninstall
 - [Zigbee] → [Stack] → [Pro Core] → [Pro Stack (Common)] → Uninstall
@@ -17,3 +15,9 @@ In the Simplicity Studio, go to the SOFTWARE COMPONENTS tab and install the soft
 - [Platform] → [Driver] → [Button] → [Simple Button] → [btn0]
 
 Change file app.c
+
+## Troubleshooting
+
+Erase NVM & re-flash bootloader & app.
+
+Tested with HA & a Sonoff USB Dongle
