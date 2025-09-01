@@ -65,20 +65,17 @@
 
 #define TEMPERATURE_MEASUREMENT_ENDPOINT     1
 #define TEMPERATURE_UPDATE_DELAY_MS       2000
-#define LED_BLINK_PERIOD_MS          2000
+#define LED_BLINK_PERIOD_MS               2000
 
 // -----------------------------------------------------------------------------
 //                          Global Variables
 // -----------------------------------------------------------------------------
-static bool commissioning = false; // Holds the commissioning status
-static bool binding = false; // Holds the binding status
-static bool initialization_is_ok = false;
-static int16_t temperature = -1000; // Example temperature value x 100, -10 to 80
+static bool commissioning = false;   // Holds the commissioning status
+static int16_t temperature = 2200;  // Example temperature, value x 100, -10 to 80
 
 // Custom event controls
 static sl_zigbee_af_event_t run_temperature_event_control;
 static sl_zigbee_af_event_t network_control_event_control;
-static sl_zigbee_af_event_t finding_and_binding_event_control;
 static sl_zigbee_af_event_t attribute_report_event_control;
 static sl_zigbee_af_event_t led_event;
 
@@ -87,10 +84,8 @@ static sl_zigbee_af_event_t led_event;
 // -----------------------------------------------------------------------------
 static void run_temperature_event_handler(sl_zigbee_af_event_t *event);
 static void network_control_event_handler(sl_zigbee_af_event_t *event);
-static void finding_and_binding_event_handler(sl_zigbee_af_event_t *event);
 static void attribute_report_event_handler(sl_zigbee_af_event_t *event);
 static void led_event_handler(sl_zigbee_af_event_t *event);
-static uint8_t binding_table_unicast_binding_count(void);
 
 // -----------------------------------------------------------------------------
 //                          Callback Handler
@@ -124,7 +119,6 @@ void sl_zigbee_af_main_init_cb(void)
                                   TEMPERATURE_UPDATE_DELAY_MS);
   sl_zigbee_af_isr_event_init(&network_control_event_control,
                               network_control_event_handler);
-  // sl_zigbee_af_event_init(&finding_and_binding_event_control,
   //                         finding_and_binding_event_handler);
   sl_zigbee_af_event_init(&attribute_report_event_control,
                           attribute_report_event_handler);
@@ -146,11 +140,6 @@ void sl_zigbee_af_stack_status_cb(sl_status_t status)
   } else if (status == SL_STATUS_NETWORK_UP) {
     sl_802154_short_addr_t node_id = sl_zigbee_af_get_node_id();
     sl_zigbee_app_debug_print("NodeID = %x\n", node_id);
-    // if (binding_table_unicast_binding_count() > 0) {
-    //   binding = true;
-    //   // If already in a network and bindings are valid, report attributes
-    //   sl_zigbee_af_event_set_active(&attribute_report_event_control);
-    // }
   }
 }
 
@@ -182,10 +171,6 @@ void sl_zigbee_af_network_steering_complete_cb(sl_status_t status,
                             status);
   if (status != SL_STATUS_OK) {
     led_stop(STATUS_LED);
-  } else {
-    // On successful join, do find and bind after a short delay
-    // sl_zigbee_af_event_set_delay_ms(&finding_and_binding_event_control,
-    //                                 FIND_AND_BIND_DELAY_MS);
   }
   commissioning = false;
 }
@@ -207,7 +192,6 @@ void sl_zigbee_af_find_and_bind_initiator_complete_cb(sl_status_t status)
   if (status != SL_STATUS_OK) {
     sl_zigbee_app_debug_print("Ensure a valid binding target!\n");
     sl_zigbee_af_event_set_inactive(&attribute_report_event_control);
-    binding = false;
   }
   led_stop(STATUS_LED);
 }
@@ -246,7 +230,7 @@ static void led_event_handler(sl_zigbee_af_event_t *event)
 {
   sl_zigbee_af_event_set_inactive(&led_event);
 
-  if (commissioning || binding) {
+  if (commissioning) {
     led_toggle(STATUS_LED);
     sl_zigbee_af_event_set_delay_ms(&led_event, LED_BLINK_PERIOD_MS << 1);
   }
@@ -260,35 +244,15 @@ static void run_temperature_event_handler(sl_zigbee_af_event_t *event)
   sl_zigbee_af_event_set_inactive(&run_temperature_event_control);
   sl_zigbee_app_debug_println("%s", __func__);
   temperature += 500;
-  sl_zigbee_app_debug_println("Running temperature measurement: %d\n", temperature);
   if (temperature > 8000) {
     temperature = -1000;
   }
+  sl_zigbee_app_debug_println("Running temperature measurement: %d\n", temperature);
   sl_zigbee_af_event_set_active(&attribute_report_event_control);
   sl_zigbee_af_event_set_delay_ms(&run_temperature_event_control,
                                   TEMPERATURE_UPDATE_DELAY_MS);
 }
 
-/** @brief Find and Bind Event Handler
- *
- * This event handler is called in response to it's respective control
- * activation. It handles the find and bind process as an initiator. It requires
- * a valid target. Upon a successful procedure, a series of binding will be
- * added to the binding table of the device for matching clusters found in the
- * target.
- *
- */
-// static void finding_and_binding_event_handler(sl_zigbee_af_event_t *event)
-// {
-//   sl_status_t status;
-//   status = sl_zigbee_af_find_and_bind_initiator_start(TEMPERATURE_MEASUREMENT_ENDPOINT);
-
-//   sl_zigbee_app_debug_print("Find and bind initiator %s: 0x%X\n",
-//                             "start",
-//                             status);
-
-//   binding = true;
-// }
 
 /** @brief Attributes report Event Handler
  *
@@ -299,13 +263,13 @@ static void run_temperature_event_handler(sl_zigbee_af_event_t *event)
  */
 static void attribute_report_event_handler(sl_zigbee_af_event_t *event)
 {
-  sl_zigbee_af_status_t status = SL_ZIGBEE_ZCL_STATUS_SUCCESS;
+  sl_zigbee_af_status_t status = SL_ZIGBEE_ZCL_STATUS_FAILURE;
 
   sl_zigbee_af_event_set_inactive(&attribute_report_event_control);
 
-//  if (sl_zigbee_af_network_state() != SL_ZIGBEE_JOINED_NETWORK) {
-//    return;
-//  }
+  if (sl_zigbee_af_network_state() != SL_ZIGBEE_JOINED_NETWORK) {
+    return;
+  }
 
   status = sl_zigbee_af_write_server_attribute(TEMPERATURE_MEASUREMENT_ENDPOINT,
                                                ZCL_TEMP_MEASUREMENT_CLUSTER_ID,
@@ -315,9 +279,9 @@ static void attribute_report_event_handler(sl_zigbee_af_event_t *event)
 
   if (status != SL_ZIGBEE_ZCL_STATUS_SUCCESS) {
     sl_zigbee_app_debug_print("Failed to report temperature: 0x%X\n", status);
+  } else {
+    sl_zigbee_app_debug_print("Temperature reported: %d\n", temperature);
   }
-
-  sl_zigbee_app_debug_print("%s reported: 0x%X\n", "Temperature measurement", status);
 }
 
 /** @brief Network Control Event Handler
@@ -341,8 +305,6 @@ static void network_control_event_handler(sl_zigbee_af_event_t *event)
     status = sl_zigbee_leave_network(SL_ZIGBEE_LEAVE_NWK_WITH_NO_OPTION);
     sl_zigbee_app_debug_print("Leave network: 0x%X\n", status);
     commissioning = false;
-    binding = false;
-
   } else if (!commissioning) {
     // If not in a network, attempt to join one
     status = sl_zigbee_af_network_steering_start();
@@ -351,24 +313,6 @@ static void network_control_event_handler(sl_zigbee_af_event_t *event)
     commissioning = true;
   }
 }
-
-// static uint8_t binding_table_unicast_binding_count(void)
-// {
-//   uint8_t i;
-//   sl_zigbee_binding_table_entry_t result;
-//   uint8_t bindings = 0;
-
-//   for (i = 0; i < sl_zigbee_get_binding_table_size(); i++) {
-//     sl_status_t status = sl_zigbee_get_binding(i, &result);
-//     if ((status == SL_STATUS_OK)
-//         && (result.type == SL_ZIGBEE_UNICAST_BINDING)) {
-//       bindings++;
-//     }
-//   }
-//   return bindings;
-// }
-
-
 
 void app_init() {
   sl_zigbee_app_debug_print("Running");

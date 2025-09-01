@@ -30,9 +30,12 @@ component:
   id: cli
 - {id: clock_manager}
 - {id: iostream_recommended_console}
+- {id: led}
 - instance: [btn0]
   id: simple_button
 - {id: simple_button_core}
+- instance: [led0]
+  id: simple_led
 - {id: sl_main}
 - {id: toolchain_gcc_lto}
 - {id: zigbee_application_bootloader}

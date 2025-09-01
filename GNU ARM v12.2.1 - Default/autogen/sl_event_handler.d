@@ -130,6 +130,9 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
  ../autogen/sl_simple_button_instances.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h \
+ ../autogen/sl_simple_led_instances.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h \
+ /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h \
  ../autogen/sl_cli_instances.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/cli/inc/sl_cli.h \
  /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/cli/inc/sl_cli_types.h \
@@ -357,6 +360,9 @@ autogen/sl_event_handler.o: ../autogen/sl_event_handler.c \
 ../autogen/sl_simple_button_instances.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_simple_button.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/button/inc/sl_button.h:
+../autogen/sl_simple_led_instances.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_simple_led.h:
+/home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/driver/leddrv/inc/sl_led.h:
 ../autogen/sl_cli_instances.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/cli/inc/sl_cli.h:
 /home/repo/SimplicityStudio/zigbee_end_device/simplicity_sdk_2025.6.1/platform/service/cli/inc/sl_cli_types.h:

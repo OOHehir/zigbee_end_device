@@ -28,6 +28,7 @@ simplicity_sdk_2025.6.1/platform/common/src \
 simplicity_sdk_2025.6.1/platform/driver/button/src \
 simplicity_sdk_2025.6.1/platform/driver/debug/src \
 simplicity_sdk_2025.6.1/platform/driver/gpio/src \
+simplicity_sdk_2025.6.1/platform/driver/leddrv/src \
 simplicity_sdk_2025.6.1/platform/emdrv/dmadrv/src \
 simplicity_sdk_2025.6.1/platform/emdrv/nvm3/src \
 simplicity_sdk_2025.6.1/platform/emlib/src \

@@ -13,7 +13,7 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-08-31T21:21:23.141276853Z
+Created: 2025-09-01T08:20:02.043630801Z
 ## Relationships
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2025.6.1
 
@@ -31,30 +31,41 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-cli
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-clock_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-iostream_recommended_console
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-toolchain_gcc_lto
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_application_bootloader
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_core_cli
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_counters
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_debug_basic
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_debug_print
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_network_steering
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_scan_dispatch
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_source_route
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_update_tc_link_key
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_zcl_cli
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_zcl_framework_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-dmadrv_core
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-power_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-bit
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-clock_manager_init_hal_s2
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-slist
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_gpio
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-iostream_usart
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-nvm3_default_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_cluster_service
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-iostream
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_cli
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-hal_prs
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-se_manager_crypto
@@ -62,6 +73,7 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-power_manager_core_impl_sleep_loop
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-memory_manager_retention_control
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_lib_config_module
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-nvm3_optimization_disable
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_memory_init
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-atomic
@@ -72,25 +84,35 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-status
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_chip
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_lib_singleprotocol
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-byte_utilities
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-memory_manager_pool
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_ldma
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-nvm3_source
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_cmu
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_syscfg
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_debug_basic_library
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-trustzone_unaware
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_init
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-legacy_hal_wdog
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-common_token_manager
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-dmadrv
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-hal_common
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_peripheral_hal
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-interrupt_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-ecode
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_rtcc
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-iostream_uart_common
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_prs
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_driver
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-clock_manager_runtime
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-memory_manager_retention_control_hal
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sli_psec_osal
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-udelay
@@ -99,18 +121,22 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-se_manager_mailbox
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-se_manager_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-power_manager_handler_implementation
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_rmu
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-board_control
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_init_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-legacy_hal
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-power_manager_core
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_system
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-cli_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-common_token_manager_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-hal_gpio
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-se_manager
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_lib
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-event_handler
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-memory_manager_region
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-bootloader_app_properties
@@ -119,9 +145,11 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_i2c
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-power_manager_deepsleep_blocking_hfxo_restore
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-debug_swo
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-interrupt_manager_cortexm
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_features
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_wdog
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-brd4308a
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_string
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-legacy_hal_soc
@@ -129,9 +157,13 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_power_manager_init
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_gpio
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-nvm3_default_flash_backend
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_device_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_clock_hal
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-printf
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-button
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_assert
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-device_clock
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-component_catalog
@@ -144,63 +176,34 @@ Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-20
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_rf_path
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_common
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-common_token_manager_static
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common_app_framework
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_built_in_phys
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-bootloader_interface
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-iostream_debug
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-fem_util
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-cmsis_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-brd4308a_config
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_core
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-emlib_timer
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sleeptimer
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_common
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_init
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-gpio
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-byte_utilities
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_driver
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_common
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack_library
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-radio_priority_configurator
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_common
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-mbedtls_config
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_init
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action
 Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-endianness
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button_core
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-button
-Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_button
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-gpio
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-led
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_led
+Relationship: SPDXRef-simplicity_sdk-2025.6.1 CONTAINS SPDXRef-simplicity_sdk-2025.6.1-simple_led_core
 
 ## Package Information
 PackageName: MGM210PA32JIA
@@ -269,6 +272,28 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-iostream_recommended_console CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Simple Button
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_button
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Simple Button Configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_button_core
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_button_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: System Setup (sl_main)
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_main
 PackageVersion: 2025.6.1
@@ -300,6 +325,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_application_bootloader CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Basic Server Cluster
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Zigbee Core CLI
@@ -346,6 +382,17 @@ PackageLicenseConcluded: MSLA
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_debug_print CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Find and Bind Initiator
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Network Steering
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_network_steering
 PackageVersion: 2025.6.1
@@ -355,6 +402,28 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_network_steering CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Pro Leaf Stack
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Reporting
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Scan Dispatch
@@ -423,6 +492,31 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-dmadrv_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: ECB Mode
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb ANCESTOR_OF SPDXRef-psa_crypto_cipher_ecb-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto_cipher_ecb-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto_cipher_ecb-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
+
+## Package Information
 PackageName: Power Manager
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-power_manager
 PackageVersion: 2025.6.1
@@ -456,6 +550,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-bit CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: PSA Driver Common Source Code
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Clock Manager Init HAL Series 2
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-clock_manager_init_hal_s2
 PackageVersion: 2025.6.1
@@ -465,6 +570,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-clock_manager_init_hal_s2 CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: TRNG
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Single Link List
@@ -522,6 +638,31 @@ PackageLicenseConcluded: MSLA
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_cluster_service CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config ANCESTOR_OF SPDXRef-psa_crypto_config-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto_config-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto_config-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
+
+## Package Information
 PackageName: IO Stream
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-iostream
 PackageVersion: 2025.6.1
@@ -531,6 +672,31 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-iostream CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: AES Block Cipher
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes ANCESTOR_OF SPDXRef-psa_crypto_aes-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto_aes-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto_aes-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
 
 ## Package Information
 PackageName: Zigbee CLI
@@ -608,6 +774,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_lib_config_module CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Zigbee Enhanced Routing With LQI
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: NVM3 disable optimization
@@ -720,6 +897,17 @@ PackageLicenseConcluded: MSLA
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_lib_singleprotocol CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Byte Utilities
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-byte_utilities
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-byte_utilities CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Memory Manager Memory Pool
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-memory_manager_pool
 PackageVersion: 2025.6.1
@@ -762,6 +950,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-emlib_cmu CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Stack Common
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA AND Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: SYSCFG
@@ -808,6 +1007,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-device_init CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: PSA SE Driver Source Code
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Legacy HAL Watchdog
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-legacy_hal_wdog
 PackageVersion: 2025.6.1
@@ -830,6 +1040,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-common_token_manager CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Zigbee Classic Key Storage
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: DMADRV
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-dmadrv
 PackageVersion: 2025.6.1
@@ -850,6 +1071,39 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-hal_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Stack Code Classifications
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Application Framework Common
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: RAIL Utility, PTI
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Device Manager Peripheral HAL
@@ -907,6 +1161,31 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-iostream_uart_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: PSA Crypto
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto ANCESTOR_OF SPDXRef-psa_crypto-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
+
+## Package Information
 PackageName: PRS
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-emlib_prs
 PackageVersion: 2025.6.1
@@ -918,6 +1197,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-emlib_prs CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Drivers for Crypto Acceleration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_driver
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Clock Manager Runtime
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-clock_manager_runtime
 PackageVersion: 2025.6.1
@@ -927,6 +1217,31 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-clock_manager_runtime CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Source Code
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source ANCESTOR_OF SPDXRef-psa_crypto_source-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto_source-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto_source-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
 
 ## Package Information
 PackageName: Memory Manager Retention Control HAL
@@ -1017,6 +1332,31 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-power_manager_handler_implementation CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Source Code
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source ANCESTOR_OF SPDXRef-mbedtls_source-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-mbedtls_source-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-mbedtls_source-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
+
+## Package Information
 PackageName: MGM210PA32JIA config
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-MGM210PA32JIA_config
 PackageVersion: 2025.6.1
@@ -1037,6 +1377,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-emlib_rmu CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Zigbee Security Manager
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Board Control
@@ -1081,6 +1432,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-power_manager_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Drivers for Silicon Labs Crypto Acceleration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: SYSTEM
@@ -1147,6 +1509,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_lib CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: 802.15.4 Unified radio scheduler priority
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4 CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Event Handler
@@ -1237,6 +1610,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-debug_swo CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: RAIL Utility, IEEE802.15.4 stack event configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Interrupt Manager Cortex-M
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-interrupt_manager_cortexm
 PackageVersion: 2025.6.1
@@ -1268,6 +1652,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-emlib_wdog CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: SL RAIL Utility, IEEE802.15.4 PHY Configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: BRD4308A
@@ -1347,6 +1742,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-nvm3_default_flash_backend CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: RAIL Utility, IEEE802.15.4 PHY Configuration
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Zigbee Device Config
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_device_config
 PackageVersion: 2025.6.1
@@ -1369,6 +1775,17 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-device_clock_hal CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Zigbee 2.4GHz Device
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4 CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Tiny printf
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-printf
 PackageVersion: 2025.6.1
@@ -1378,6 +1795,28 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MIT
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-printf CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Silicon Labs Mbed TLS support
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Generic Button API
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-button
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Assert Functions
@@ -1512,6 +1951,42 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-common_token_manager_static CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
+PackageName: Strong Random Api (Radio)
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core ANCESTOR_OF SPDXRef-mbedtls_core-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-mbedtls_core-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-mbedtls_core-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
+
+## Package Information
 PackageName: core
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_core
 PackageVersion: 2025.6.1
@@ -1532,6 +2007,31 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common_app_framework CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: CCM Mode
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm ANCESTOR_OF SPDXRef-psa_crypto_ccm-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-psa_crypto_ccm-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-psa_crypto_ccm-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
 
 ## Package Information
 PackageName: RAIL Utility, Built-in PHYs Across HFXO Frequencies
@@ -1565,6 +2065,31 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-iostream_debug CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Default dynamic memory allocation macros for mbedtls
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default ANCESTOR_OF SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2
+
+## Package Information
+PackageName: Mbed TLS
+SPDXID: SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2
+PackageVersion: v3.6.2
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Trusted Firmware
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
+PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
+## Relationships
+Relationship: SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
 
 ## Package Information
 PackageName: Radio Utility, FEM
@@ -1648,517 +2173,6 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-sleeptimer CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Zigbee Signature Decode
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Common Functions
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_common
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: sl main Init
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_main_init
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_main_init CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: sl_main Process Action
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: GPIO Driver
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-gpio
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-gpio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Pro Leaf Stack
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: ECB Mode
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb ANCESTOR_OF SPDXRef-psa_crypto_cipher_ecb-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto_cipher_ecb-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto_cipher_ecb-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_cipher_ecb
-
-## Package Information
-PackageName: PSA Driver Common Source Code
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_driver_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: TRNG
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_trng CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Configuration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config ANCESTOR_OF SPDXRef-psa_crypto_config-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto_config-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto_config-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_config
-
-## Package Information
-PackageName: AES Block Cipher
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes ANCESTOR_OF SPDXRef-psa_crypto_aes-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto_aes-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto_aes-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_aes
-
-## Package Information
-PackageName: Zigbee Enhanced Routing With LQI
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_enhanced_routing CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Byte Utilities
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-byte_utilities
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-byte_utilities CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Stack Common
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA AND Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: PSA SE Driver Source Code
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_se_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Zigbee Classic Key Storage
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_classic_key_storage CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Stack Code Classifications
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_stack_code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Application Framework Common
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_system_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: RAIL Utility, PTI
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_pti CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: PSA Crypto
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto ANCESTOR_OF SPDXRef-psa_crypto-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto
-
-## Package Information
-PackageName: Drivers for Crypto Acceleration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_driver
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Source Code
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source ANCESTOR_OF SPDXRef-psa_crypto_source-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto_source-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto_source-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_source
-
-## Package Information
-PackageName: Source Code
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source ANCESTOR_OF SPDXRef-mbedtls_source-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-mbedtls_source-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-mbedtls_source-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_source
-
-## Package Information
-PackageName: Zigbee Security Manager
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_security_manager CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Drivers for Silicon Labs Crypto Acceleration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto_driver CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: 802.15.4 Unified radio scheduler priority
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-radio_priority_15_4 CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: RAIL Utility, IEEE802.15.4 stack event configuration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_stack_event CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: SL RAIL Utility, IEEE802.15.4 PHY Configuration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_rail_util_ieee802154_phy_select CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: RAIL Utility, IEEE802.15.4 PHY Configuration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-rail_util_ieee802154_phy_select CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Zigbee 2.4GHz Device
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_phy_2_4 CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Silicon Labs Mbed TLS support
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_slcrypto CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Strong Random Api (Radio)
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_strong_random_api_radio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core ANCESTOR_OF SPDXRef-mbedtls_core-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-mbedtls_core-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-mbedtls_core-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_core
-
-## Package Information
-PackageName: CCM Mode
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm ANCESTOR_OF SPDXRef-psa_crypto_ccm-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-psa_crypto_ccm-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-psa_crypto_ccm-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_ccm
-
-## Package Information
-PackageName: Default dynamic memory allocation macros for mbedtls
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: Zlib AND Apache-2.0
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default ANCESTOR_OF SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2
-
-## Package Information
-PackageName: Mbed TLS
-SPDXID: SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2
-PackageVersion: v3.6.2
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Trusted Firmware
-PackageOriginator: Organization: NOASSERTION
-PackageHomePage: https://github.com/Mbed-TLS/mbedtls.git
-PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography API, cryptographic primitives, X.509 certificate manipulation and the SSL/TLS and DTLS protocols</text>
-## Relationships
-Relationship: SPDXRef-mbedtls_platform_dynamic_memory_allocation_config_default-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_platform_dynamic_memory_allocation_config_default
-
-## Package Information
 PackageName: Common
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_common
 PackageVersion: 2025.6.1
@@ -2184,6 +2198,17 @@ PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography 
 Relationship: SPDXRef-psa_crypto_common-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-psa_crypto_common
 
 ## Package Information
+PackageName: Zigbee Signature Decode
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_signature_decode CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Zigbee PRO Leaf (Library)
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_pro_leaf_stack_library
 PackageVersion: 2025.6.1
@@ -2204,6 +2229,17 @@ PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-radio_priority_configurator CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Common Functions
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_common
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_common CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
 PackageName: Configuration
@@ -2231,6 +2267,28 @@ PackageComment: <text>Mbed TLS is a C library implementing the PSA Cryptography 
 Relationship: SPDXRef-mbedtls_config-v3.6.2 DESCENDANT_OF SPDXRef-simplicity_sdk-2025.6.1-mbedtls_config
 
 ## Package Information
+PackageName: sl main Init
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_main_init
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_main_init CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: sl_main Process Action
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-sl_main_process_action CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
 PackageName: Endianness Operations Library
 SPDXID: SPDXRef-simplicity_sdk-2025.6.1-endianness
 PackageVersion: 2025.6.1
@@ -2242,67 +2300,45 @@ PackageLicenseConcluded: Zlib
 Relationship: SPDXRef-simplicity_sdk-2025.6.1-endianness CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Basic Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Reporting
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Find and Bind Initiator
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator
-PackageVersion: 2025.6.1
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-zigbee_find_and_bind_initiator CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
-
-## Package Information
-PackageName: Simple Button Configuration
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_button_core
+PackageName: GPIO Driver
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-gpio
 PackageVersion: 2025.6.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_button_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-gpio CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Generic Button API
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-button
+PackageName: Generic LED API
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-led
 PackageVersion: 2025.6.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-led CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
 
 ## Package Information
-PackageName: Simple Button
-SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_button
+PackageName: Simple LED
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_led
 PackageVersion: 2025.6.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_button CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_led CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1
+
+## Package Information
+PackageName: Simple LED Core
+SPDXID: SPDXRef-simplicity_sdk-2025.6.1-simple_led_core
+PackageVersion: 2025.6.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2025.6.1-simple_led_core CONTAINED_BY SPDXRef-simplicity_sdk-2025.6.1

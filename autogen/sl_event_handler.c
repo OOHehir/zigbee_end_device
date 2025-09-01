@@ -16,6 +16,7 @@
 #include "sl_iostream_init_usart_instances.h"
 #include "sl_mbedtls.h"
 #include "sl_simple_button_instances.h"
+#include "sl_simple_led_instances.h"
 #include "sl_cli_instances.h"
 #include "psa/crypto.h"
 #include "sl_se_manager.h"
@@ -60,6 +61,7 @@ void sl_driver_init(void)
   sl_debug_swo_init();
   sl_gpio_init();
   sl_simple_button_init_instances();
+  sl_simple_led_init_instances();
   sl_cos_send_config();
 }
 
